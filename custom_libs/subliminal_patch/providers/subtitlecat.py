@@ -6,7 +6,8 @@ import re
 from bs4 import BeautifulSoup
 from requests import Session
 
-from subliminal_patch.providers import Provider
+#from subliminal_patch.providers import Provider
+from subliminal.providers import Provider
 from subliminal_patch.subtitle import Subtitle
 from subliminal.video import Episode, Movie
 from subliminal.subtitle import guess_matches
