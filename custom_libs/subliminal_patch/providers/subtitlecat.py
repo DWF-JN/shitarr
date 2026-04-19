@@ -1,4 +1,5 @@
 # custom_libs/subliminal_patch/providers/subtitlecat.py
+print(">>> subtitlecat module imported")
 from __future__ import absolute_import
 import logging
 import re
